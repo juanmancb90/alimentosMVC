@@ -7,7 +7,7 @@ class Controller{
 	{
 		//parametros
 		$params = array(
-			"mensaje" => "Bienvenido al Sistema de Informacion del Mantenimiento Institucional-SIMI",
+			"mensaje" => "Bienvenido",
 			"fecha" => date("d-m-y"),
 		);
 		require __DIR__ . "/templates/inicio.php";
